@@ -21,6 +21,7 @@ Bundler.require(*Rails.groups)
 
 module Unicollezione
   class Application < Rails::Application
+    # config.i18n.default_locale = en
 
     config.to_prepare do
       # Load application's model / class decorators

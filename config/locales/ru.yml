@@ -1,0 +1,8 @@
+ru:
+  hello: 'Привет мир!'
+
+  number:
+  format:
+    separator: '.'
+    precision: 2
+    delimiter: '.'
