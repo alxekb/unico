@@ -68,17 +68,15 @@
     <orderEntry type="library" scope="PROVIDED" name="ffaker (v2.13.0, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.12.2, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="friendly_id (v5.3.0, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="friendly_id-globalize (v1.0.0.alpha3, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="globalize (v5.3.0, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="glyphicons (v1.0.2, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="highline (v2.0.3, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="htmlentities (v4.3.4, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.2, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n_data (v0.10.0, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="image_processing (v1.10.3, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="inline_svg (v1.6.0, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.9.1, rbenv: 2.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="inline_svg (v1.7.0, rbenv: 2.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.10.0, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.3.5, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-ui-rails (v6.0.1, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari (v1.1.1, rbenv: 2.7.0) [gem]" level="application" />
@@ -126,7 +124,6 @@
     <orderEntry type="library" scope="PROVIDED" name="ransack (v2.3.2, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.3, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.10.1, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="request_store (v1.5.0, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v3.0.0, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="routing-filter (v0.6.3, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby-vips (v2.0.17, rbenv: 2.7.0) [gem]" level="application" />
@@ -134,18 +131,17 @@
     <orderEntry type="library" scope="PROVIDED" name="sassc (v2.2.1, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sassc-rails (v2.1.2, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="select2-rails (v3.5.10, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree (v4.1.0.rc2, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_api (v4.1.0.rc2, rbenv: 2.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree (v4.1.0.rc3, rbenv: 2.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_api (v4.1.0.rc3, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_auth_devise (v4.1.0.rc1, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_backend (v4.1.0.rc2, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_cmd (v4.1.0.rc2, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_core (v4.1.0.rc2, rbenv: 2.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_backend (v4.1.0.rc3, rbenv: 2.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_cmd (v4.1.0.rc3, rbenv: 2.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_core (v4.1.0.rc3, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_extension (v0.0.9, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_frontend (v4.1.0.rc2, rbenv: 2.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_frontend (v4.1.0.rc3, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_gateway (v3.7.0, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_globalize (v3.4.0@b03c2f, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_i18n (v3.3.2@521fe4, rbenv: 2.7.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_sample (v4.1.0.rc2, rbenv: 2.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_sample (v4.1.0.rc3, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.1.0, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring-watcher-listen (v2.0.1, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.2, rbenv: 2.7.0) [gem]" level="application" />

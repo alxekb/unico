@@ -1,42 +1,42 @@
 default:
   navigation:
     - title: Cruise
-      subtitle: Categories
-      url: /t/women
+      subtitle: Балуем себя
+      url: /t/cruise
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: юбки
+          :url: /t/cruise/skirts
+        - :title: брюки
+          :url: /t/cruise/trousers
+        - :title: платья
+          :url: /t/cruise/dresses
+        - :title: рубашки
+          :url: /t/cruise/shirts-and-blouses
+        - :title: шорты
+          :url: /t/cruise/shorts
+        - :title: куртки и ветровки
+          :url: /t/cruise/jackets-and-coats
       promo_banners:
         - subtitle: New collection
-          title: Summer 2019
+          title: Лето 2020
           url: /t/summer-collection
           image: 'meganav/promo_banner_left-first-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers
+        - subtitle: Предзаказ
+          title: Индивидуальный заказ
+          url: /t/pre-orders
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Basic
-      subtitle: Categories
-      url: /t/men
+    - title: Classic
+      subtitle: Ваш базовый гардероб
+      url: /t/classic
       items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
-        - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+        - :title: Рубашки
+          :url: /t/classic/shirts
+        - :title: Брюки
+          :url: /t/classic/pants
+        - :title: Платья
+          :url: /t/classic/dresses
+        - :title: куртки и ветровки
+          :url: /t/classic/jackets-and-coats
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -47,18 +47,22 @@ default:
           url: /t/special-offers
           image: 'meganav/promo_banner_right-second-category.jpg'
     - title: Office
-      subtitle: Categories
-      url: /t/sportswear
+      subtitle: Деловая одежда
+      url: /t/office
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Юбки
+          :url: /t/office/skirts
+        - :title: Рубашки
+          :url: /t/office/shirts
+        - :title: Топы
+          :url: /t/office/tops
+        - :title: пиджаки
+          :url: /t/sportswear/jackets
+        - :title: Брюки
+          :url: /t/office/pants
       promo_banners:
         - subtitle: New collection
-          title: Summer 2019
+          title: Summer 2020
           url: /t/summer-collection
           image: 'meganav/promo_banner_left-third-category.jpg'
         - subtitle: Special Offers
