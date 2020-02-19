@@ -31,3 +31,11 @@
 
 en:
   hello: "Hello world"
+  spree:
+    homepage:
+      fashion_trends_note: 'Задавем новые тренды на весну. Загляни сюда, чтобы быть в курсе.'
+      spring_2020: 'Весна 2020'
+    homepage:
+      cruise: 'cruise'
+      classic: 'classic'
+      office: 'office'

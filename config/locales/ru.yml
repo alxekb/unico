@@ -1,0 +1,19 @@
+ru:
+  hello: 'Привет мир!'
+
+  number:
+  format:
+    separator: '.'
+    precision: 2
+    delimiter: '.'
+
+  spree:
+    navbar:
+      skirt: 'Юбки'
+    homepage:
+      cruise: 'круиз'
+      classic: 'классик'
+      office: 'офис'
+    nav_bar:
+      show_search: 'Поиск'
+      show_user_menu: 'Меню'

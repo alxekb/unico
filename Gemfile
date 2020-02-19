@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.0'
 
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
+gem 'coffee-rails', '~> 5.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
@@ -11,8 +12,9 @@ gem 'webpacker', '~> 4.0'
 gem 'spree', '~> 4.1.0.rc1'
 gem 'spree_auth_devise', '~> 4.1.0.rc1'
 gem 'spree_gateway', '~> 3.7'
-# gem 'spree_ams', github: 'hhff/spree_ams', branch: '3-0-alpha'
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
 gem 'jbuilder', '~> 2.7'
+gem 'newrelic_rpm'
 # gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'image_processing', '~> 1.2'
@@ -23,6 +25,8 @@ group :development, :test do
 end
 
 group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.2', '>= 3.2.1'
   gem 'spring'
