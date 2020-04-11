@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: unc-deployment
+  labels:
+    app: unc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: unc
+  template:
+    metadata:
+      labels:
+        app: unc
+    spec:
+      containers:
+      - name: node
+        image: alxekb/unc-dev:0.0.2
+        ports:
+        - containerPort: 3000

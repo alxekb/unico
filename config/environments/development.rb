@@ -1,3 +1,6 @@
+require 'socket'
+require 'ipaddr'
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -8,6 +11,13 @@ Rails.application.configure do
 
   config.action_controller.asset_host = 'http://localhost:3000'
   config.hosts << "dev.unicollezione.com"
+
+  # if File.file?('/.dockerenv')
+  #   host_ip = `/sbin/ip route|awk '/default/ { print $3 }'`.strip
+  #
+  #   BetterErrors::Middleware.allow_ip!(host_ip) if defined?(BetterErrors::Middleware)
+  #   config.web_console.whitelisted_ips << host_ip
+  # end
 
   # Do not eager load code on boot.
   config.eager_load = false
