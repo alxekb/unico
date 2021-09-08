@@ -25,7 +25,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller'
   gem 'web-console', '>= 4.0.1'
   gem 'listen', '~> 3.2', '>= 3.2.1'
